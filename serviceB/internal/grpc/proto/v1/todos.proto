@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package todo_proto.v1;
+
+option go_package = "github.com/grpc-learning/service-b/gen/proto/v1;todo_proto";
+
+import "google/protobuf/empty.proto";
+
+message TodosRequest {
+    string task = 1;
+    bool is_done = 2;
+}
+
+message TodosResponse {
+    string id = 1;
+    string task = 2;
+    bool is_done = 3;
+    int64 created_at = 4;
+}
+
+message GetTodoIdParams {
+    string id = 1;
+}
+
+message ListTodosResponse {
+    repeated TodosResponse todos = 1;
+}
+
+service TodosService {
+    rpc GetTodos(google.protobuf.Empty) returns (ListTodosResponse); 
+    rpc GetTodo(GetTodoIdParams) returns (TodosResponse);
+    rpc CreateTodo(TodosRequest) returns (google.protobuf.Empty);
+}
