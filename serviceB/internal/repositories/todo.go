@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/grpc-learning/service-b/internal/domains"
-	"github.com/grpc-learning/service-b/pkg/db"
+	"github.com/raphacm/grpc-learning/service-b/internal/domains"
+	"github.com/raphacm/grpc-learning/service-b/pkg/db"
 )
 
 type ToDoRepositorer interface {

@@ -1,4 +1,4 @@
-module github.com/grpc-learning/service-b
+module github.com/raphacm/grpc-learning/service-b
 
 go 1.24.1
 

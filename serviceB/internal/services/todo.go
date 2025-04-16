@@ -3,8 +3,8 @@ package services
 import (
 	"context"
 
-	"github.com/grpc-learning/service-b/internal/domains"
-	"github.com/grpc-learning/service-b/internal/repositories"
+	"github.com/raphacm/grpc-learning/service-b/internal/domains"
+	"github.com/raphacm/grpc-learning/service-b/internal/repositories"
 )
 
 type ToDoServicer interface {

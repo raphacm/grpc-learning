@@ -4,10 +4,10 @@ import (
 	"log"
 	"net"
 
-	// todo_proto "github.com/grpc-learning/service-b/internal/grpc/gen/github.com/grpc-learning/service-b/gen/proto/v1"
-	todo_proto "github.com/grpc-learning/grpc-protos/serviceB/gen/proto/v1"
-	grpc_handler "github.com/grpc-learning/service-b/internal/grpc/handlers"
-	"github.com/grpc-learning/service-b/internal/services"
+	// todo_proto "github.com/raphacm/grpc-learning/service-b/internal/grpc/gen/github.com/raphacm/grpc-learning/service-b/gen/proto/v1"
+	todo_proto "github.com/raphacm/grpc-learning/grpc-protos/serviceB/gen/proto/v1"
+	grpc_handler "github.com/raphacm/grpc-learning/service-b/internal/grpc/handlers"
+	"github.com/raphacm/grpc-learning/service-b/internal/services"
 	"google.golang.org/grpc"
 )
 

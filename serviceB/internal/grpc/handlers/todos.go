@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/grpc-learning/service-b/internal/domains"
+	"github.com/raphacm/grpc-learning/service-b/internal/domains"
 
-	// pb "github.com/grpc-learning/service-b/internal/grpc/gen/github.com/grpc-learning/service-b/gen/proto/v1"
-	pb "github.com/grpc-learning/grpc-protos/serviceB/gen/proto/v1"
-	"github.com/grpc-learning/service-b/internal/services"
+	// pb "github.com/raphacm/grpc-learning/service-b/internal/grpc/gen/github.com/raphacm/grpc-learning/service-b/gen/proto/v1"
+	pb "github.com/raphacm/grpc-learning/grpc-protos/serviceB/gen/proto/v1"
+	"github.com/raphacm/grpc-learning/service-b/internal/services"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

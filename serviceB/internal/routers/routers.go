@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"github.com/grpc-learning/service-b/internal/handlers"
 	"github.com/labstack/echo/v4"
+	"github.com/raphacm/grpc-learning/service-b/internal/handlers"
 )
 
 type Routers struct {

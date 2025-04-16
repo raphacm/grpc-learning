@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/grpc-learning/service-b/internal/domains"
+	"github.com/raphacm/grpc-learning/service-b/internal/domains"
 )
 
 type Databaser interface {

@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/grpc-learning/service-b/internal/grpc"
-	"github.com/grpc-learning/service-b/internal/handlers"
-	"github.com/grpc-learning/service-b/internal/repositories"
-	"github.com/grpc-learning/service-b/internal/routers"
-	"github.com/grpc-learning/service-b/internal/services"
-	"github.com/grpc-learning/service-b/pkg/db"
+	"github.com/raphacm/grpc-learning/service-b/internal/grpc"
+	"github.com/raphacm/grpc-learning/service-b/internal/handlers"
+	"github.com/raphacm/grpc-learning/service-b/internal/repositories"
+	"github.com/raphacm/grpc-learning/service-b/internal/routers"
+	"github.com/raphacm/grpc-learning/service-b/internal/services"
+	"github.com/raphacm/grpc-learning/service-b/pkg/db"
 )
 
 func main() {
