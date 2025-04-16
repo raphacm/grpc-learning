@@ -252,7 +252,7 @@ const file_v1_todos_proto_rawDesc = "" +
 	"\bGetTodos\x12\x16.google.protobuf.Empty\x1a .todo_proto.v1.ListTodosResponse\x12G\n" +
 	"\aGetTodo\x12\x1e.todo_proto.v1.GetTodoIdParams\x1a\x1c.todo_proto.v1.TodosResponse\x12A\n" +
 	"\n" +
-	"CreateTodo\x12\x1b.todo_proto.v1.TodosRequest\x1a\x16.google.protobuf.EmptyB\x15Z\x13proto/v1;todo_protob\x06proto3"
+	"CreateTodo\x12\x1b.todo_proto.v1.TodosRequest\x1a\x16.google.protobuf.EmptyBOZMgithub.com/raphacm/grpc-learning/grpc-protos/serviceB/gen/proto/v1;todo_protob\x06proto3"
 
 var (
 	file_v1_todos_proto_rawDescOnce sync.Once

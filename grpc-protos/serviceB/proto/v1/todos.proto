@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package todo_proto.v1;
 
-option go_package = "proto/v1;todo_proto";
+option go_package = "github.com/raphacm/grpc-learning/grpc-protos/serviceB/gen/proto/v1;todo_proto";
 
 import "google/protobuf/empty.proto";
 
