@@ -1,4 +1,4 @@
-module github.com/grpc-learning/grpc-protos
+module github.com/raphacm/grpc-learning/grpc-protos
 
 go 1.24.1
 
